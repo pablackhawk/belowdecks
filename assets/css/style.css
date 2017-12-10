@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/ep_naturalblack.png");
+    color: #ddd;
+}
+
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+#logo-div {
+    position: relative;
+    left: 9%;
+    margin-top: 19%;
+}
+
+#logo {
+    width: 330px;
+    height: 330px;
+}
+
+#topbar {
+    width: 100%;
+}
+
+.navlinks {
+    font-size: 18px;
+    color: #ddd;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.currentlink {
+    color: hsl(58, 80%, 42%);
+}
+
+a:active {
+    color: hsl(58, 80%, 42%);
+}
+
+a:hover {
+    color: hsla(196, 93%, 39%, 0.6);
+}
+
+.nav {
+	  text-align: center;
+    position: relative;
+    top: 14px;
+    left: 3%;
+}
+
+@media screen and (min-width:)
