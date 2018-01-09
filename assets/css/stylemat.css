@@ -1,0 +1,55 @@
+body {
+  background-image: url('../images/starfield.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: hsl(216, 61, 8);
+  color: #ddd;
+}
+
+html {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+}
+a {
+  color: hsl(93, 95%, 33%);
+}
+
+a:active {
+  color: hsl(58, 80%, 42%);
+}
+
+a:hover {
+  color: hsla(196, 93%, 39%, 0.6);
+}
+
+.nav-wrapper {
+  color: #ddd;
+  background: rgb(90, 89, 89);
+  padding-left: 2%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.footer {
+  text-align: center;
+}
+
+#main-logo {
+  margin-top: 15%;
+  width: 100%;
+  height: auto;
+}
+
+#home-email {
+  font-style: italic;
+  text-align: center;
+}
