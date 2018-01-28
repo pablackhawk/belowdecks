@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/starfield.jpeg');
+  background-image: url('../images/sky-lights-space-dark.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,13 +32,28 @@ a:hover {
   color: hsla(196, 93%, 39%, 0.6);
 }
 
-.nav-wrapper {
-  color: #ddd;
-  background: rgb(90, 89, 89);
-  padding-left: 2%;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+nav {
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
 }
 
+.nav-wrapper {
+  color: #ddd;
+  background: rgba(25, 26, 25, 0.1);
+  padding-left: 2%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: none;
+  box-shadow: none;
+}
+
+.nav-logo {
+  height: 110px;
+  width: auto;
+}
+.active-page {
+  color: hsl(58, 80%, 42%);
+}
 .footer {
   text-align: center;
 }
