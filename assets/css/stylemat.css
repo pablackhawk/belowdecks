@@ -19,6 +19,14 @@ h4,
 h5,
 h6 {
   font-family: 'Cabin', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(58, 80%, 42%);
 }
 a {
   color: hsl(93, 95%, 33%);
@@ -36,6 +44,7 @@ nav {
   border: none;
   box-shadow: none;
   margin-top: 10px;
+  margin-bottom: 5%;
 }
 
 .nav-wrapper {
@@ -58,6 +67,11 @@ nav {
   text-align: center;
 }
 
+.page-banner {
+  width: 100%;
+  margin-top: 1%;
+}
+
 #main-logo {
   margin-top: 15%;
   width: 100%;
@@ -67,4 +81,25 @@ nav {
 #home-email {
   font-style: italic;
   text-align: center;
+}
+
+#cato-warp-math {
+  display: flex;
+  align-content: center;
+  height: 600px;
+  width: 100%;
+  margin-top: 1%;
+}
+
+#okuda-math {
+  height: auto;
+  width: 100%;
+}
+
+#about-image {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 50vh;
+  width: auto;
 }
