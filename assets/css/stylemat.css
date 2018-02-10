@@ -87,7 +87,7 @@ nav {
 
 .page-banner {
   width: 100%;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 
 #main-logo {
@@ -120,4 +120,5 @@ nav {
   margin: auto;
   height: 50vh;
   width: auto;
+  margin-bottom: 5%;
 }
