@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url('../images/sky-lights-space-dark.jpg');
+  background-image: url('../images/starfield.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: hsl(216, 61, 8);
+  background-color: rgb(4, 6, 14);
   color: #ddd;
 }
 
@@ -28,6 +32,15 @@ h5,
 h6 {
   color: hsl(58, 80%, 42%);
 }
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
 a {
   color: hsl(93, 95%, 33%);
 }
@@ -63,6 +76,11 @@ nav {
 .active-page {
   color: hsl(58, 80%, 42%);
 }
+
+.content-about {
+  padding: 40px;
+}
+
 .footer {
   text-align: center;
 }
