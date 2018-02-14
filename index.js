@@ -12,10 +12,9 @@ const db = require('./models');
 
 // Routes
 require('./routes/html.js')(app);
-require('./routes/api.js')(app);
-require('./routes/scraper.js')(app);
+// require('./routes/api.js')(app);
 
-app.use(bodyParese.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use(methodOverride('_method'));

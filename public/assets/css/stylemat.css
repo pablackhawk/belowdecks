@@ -14,7 +14,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: rgb(4, 6, 14);
-  color: #ddd;
+  color: #eee;
 }
 
 html {
@@ -47,7 +47,7 @@ p {
 }
 
 a {
-  color: hsl(93, 95%, 33%);
+  color: hsl(93, 71%, 46%);
 }
 
 a:active {
@@ -73,7 +73,7 @@ nav {
 }
 
 .nav-wrapper {
-  color: #ddd;
+  color: #eee;
   background: rgba(25, 26, 25, 0.1);
   padding-left: 2%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -91,7 +91,7 @@ nav {
 
 .content-about {
   padding: 40px;
-  background: rgba(86, 86, 86, 0.4);
+  background: rgba(86, 86, 86, 0.65);
   margin: 0 1%;
 }
 
