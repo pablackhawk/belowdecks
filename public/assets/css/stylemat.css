@@ -1,25 +1,21 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body,
 html {
-  height: 100%;
-}
+  height: 100%; }
 
 body {
-  background-image: url('../images/starfield.jpeg');
+  background-image: url("../images/starfield.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(4, 6, 14);
-  color: #eee;
-}
+  background-color: #04060e;
+  color: #eee !important; }
 
 html {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-}
+  font-family: "Yanone Kaffeesatz", sans-serif; }
 
 h1,
 h2,
@@ -27,106 +23,122 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Play", sans-serif;
   text-transform: uppercase;
-  font-style: italic;
-}
+  font-style: italic; }
+
 h3,
 h4,
 h5,
 h6 {
-  color: hsl(58, 80%, 42%);
-}
+  color: #c1bb15 !important; }
 
 h3 {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 p {
   font-size: 18px;
-}
+  font-family: "Play", sans-serif; }
 
 a {
-  color: hsl(93, 71%, 46%);
-}
-
-a:active {
-  color: hsl(58, 80%, 42%);
-}
+  color: #6dc922 !important; }
+  a :active {
+    color: #c1bb15 !important; }
 
 a:hover {
-  color: hsla(196, 93%, 39%, 0.6);
-}
+  color: rgba(7, 143, 192, 0.6) !important; }
 
 nav {
   border: none;
   box-shadow: none;
   margin-top: 10px;
-  margin-bottom: 5%;
-}
+  margin-bottom: 5%; }
+  nav a {
+    color: #eee !important; }
+    nav a :active {
+      color: #c1bb15 !important; }
+    nav a :hover {
+      color: rgba(7, 143, 192, 0.6) !important; }
+
+form {
+  width: 100%;
+  height: 100%;
+  color: #eee !important; }
 
 .layer {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(86, 86, 86, 0.4);
-}
+  background: rgba(86, 86, 86, 0.65) !important; }
 
 .nav-wrapper {
   color: #eee;
   background: rgba(25, 26, 25, 0.1);
   padding-left: 2%;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   border: none;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
 .nav-logo {
   height: 110px;
-  width: auto;
-}
+  width: auto; }
+
 .active-page {
-  color: hsl(58, 80%, 42%);
-}
+  color: #c1bb15 !important; }
 
 .content-about {
   padding: 40px;
-  background: rgba(86, 86, 86, 0.65);
-  margin: 0 1%;
-}
+  background: rgba(86, 86, 86, 0.65) !important;
+  margin: 0 1%; }
+
+.input-field {
+  background-color: rgba(86, 86, 86, 0.65) !important; }
+
+.input-field label {
+  color: #eee !important; }
+
+.input-field input[type='text']:focus + label {
+  color: #6dc922 !important; }
+
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid #6dc922 !important;
+  box-shadow: 0 1px 0 0 #000; }
+
+.input-field input[type='text'].valid {
+  border-bottom: 1px solid #6dc922 !important;
+  box-shadow: 0 1px 0 0 #000; }
+
+.input-field input[type='text'].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000; }
 
 .footer {
   text-align: center;
-}
+  font-family: "Play", sans-serif; }
 
 .page-banner {
   width: 100%;
-  margin-top: 5%;
-}
+  margin-top: 5%; }
 
 #main-logo {
   margin-top: 15%;
   width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 #home-email {
   font-style: italic;
-  text-align: center;
-}
+  text-align: center; }
 
 #cato-warp-math {
   display: flex;
   align-content: center;
   height: 600px;
   width: 100%;
-  margin-top: 1%;
-}
+  margin-top: 1%; }
 
 #okuda-math {
   height: auto;
-  width: 100%;
-}
+  width: 100%; }
 
 #about-image {
   display: flex;
@@ -134,5 +146,6 @@ nav {
   margin: auto;
   height: 50vh;
   width: auto;
-  margin-bottom: 5%;
-}
+  margin-bottom: 5%; }
+
+/*# sourceMappingURL=stylemat.css.map */

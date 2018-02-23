@@ -1,0 +1,186 @@
+$yellow: hsl(58, 80%, 42%) !important;
+$green: hsl(93, 71%, 46%) !important;
+$white: #eee !important;
+$blue: hsla(196, 93%, 39%, 0.6) !important;
+$grey: rgba(86, 86, 86, 0.65) !important;
+$font1: 'Yanone Kaffeesatz', sans-serif;
+$font2: 'Play', sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../images/starfield.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(4, 6, 14);
+  color: $white;
+}
+
+html {
+  font-family: $font1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font2;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h3,
+h4,
+h5,
+h6 {
+  color: $yellow;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: $font2;
+}
+
+a {
+  color: $green;
+  :active {
+    color: $yellow;
+  }
+}
+a:hover {
+  color: $blue;
+}
+nav {
+  border: none;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  a {
+    color: $white;
+    :active {
+      color: $yellow;
+    }
+    :hover {
+      color: $blue;
+    }
+  }
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  color: $white;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: $grey;
+}
+
+.nav-wrapper {
+  color: #eee;
+  background: rgba(25, 26, 25, 0.1);
+  padding-left: 2%;
+  font-family: $font1;
+  border: none;
+  box-shadow: none;
+}
+
+.nav-logo {
+  height: 110px;
+  width: auto;
+}
+.active-page {
+  color: $yellow;
+}
+
+.content-about {
+  padding: 40px;
+  background: $grey;
+  margin: 0 1%;
+}
+
+.input-field {
+  background-color: $grey;
+}
+
+.input-field label {
+  color: $white;
+}
+
+.input-field input[type='text']:focus + label {
+  color: $green;
+}
+
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid $green;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type='text'].valid {
+  border-bottom: 1px solid $green;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type='text'].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.footer {
+  text-align: center;
+  font-family: $font2;
+}
+
+.page-banner {
+  width: 100%;
+  margin-top: 5%;
+}
+
+#main-logo {
+  margin-top: 15%;
+  width: 100%;
+  height: auto;
+}
+
+#home-email {
+  font-style: italic;
+  text-align: center;
+}
+
+#cato-warp-math {
+  display: flex;
+  align-content: center;
+  height: 600px;
+  width: 100%;
+  margin-top: 1%;
+}
+
+#okuda-math {
+  height: auto;
+  width: 100%;
+}
+
+#about-image {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  height: 50vh;
+  width: auto;
+  margin-bottom: 5%;
+}
