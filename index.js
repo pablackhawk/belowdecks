@@ -21,9 +21,9 @@ app.use(methodOverride('_method'));
 
 // Syncs Sequelize server
 db.sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => {
-    console.log(`App listening on PORT: ${PORT}`);
-  });
+        app.listen(PORT, () => {
+                console.log(`App listening on PORT: ${PORT}`);
+        });
 });
 
 exports = module.exports = app;
