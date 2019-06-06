@@ -18,18 +18,18 @@
   },
   "homepage": "https://github.com/pablackhawk/belowdecks#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "chai": "^4.2.0",
     "cheerio": "^1.0.0-rc.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
     "inquirer": "^5.2.0",
     "method-override": "^2.3.10",
     "mocha": "^5.2.0",
-    "mysql": "^2.16.0",
+    "mysql": "^2.17.1",
     "mysql2": "^1.6.5",
-    "nodemon": "^1.18.11",
+    "nodemon": "^1.19.1",
     "request": "^2.88.0",
-    "sequelize": "^4.43.1"
+    "sequelize": "^4.44.0"
   }
 }
